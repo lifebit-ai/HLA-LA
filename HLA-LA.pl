@@ -192,7 +192,7 @@ unless(-e $BAM)
 	}
 }
 
-my $full_graph_dir = $FindBin::RealBin . '/../graphs/' . $graph;
+my $full_graph_dir = $graph;
 my $known_references_dir = $full_graph_dir . '/knownReferences';
 unless(-e $full_graph_dir)
 {
